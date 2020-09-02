@@ -372,6 +372,11 @@ header {
   opacity: 1;
   outline: none;
 }
+@media (min-width: 24em) {
+  .Chatbot__popup {
+    width: 360px;
+  }
+}
 @media (min-width: 30em) {
   .Chatbot {
     right: 2em;

@@ -103,7 +103,6 @@ header {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-
 .Toggler.active .line:nth-child(2) {
   -webkit-transition: none;
   -o-transition: none;

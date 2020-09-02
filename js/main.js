@@ -44,6 +44,13 @@ sendChat.addEventListener("click", (e) => {
           chatWrap.classList.add("bot-wrap");
           chatWrap.innerHTML = `<small></small><div class="bot chat"><div class="bot-chat">${reply}</div></div>`;
           chat.appendChild(chatWrap);
+        })
+        .catch((err) => {
+          console.log(err);
+          const chatWrap = document.createElement("div");
+          chatWrap.classList.add("bot-wrap");
+          chatWrap.innerHTML = `<small></small><div class="bot chat"><div class="bot-chat">Please check your internet connection.</div></div>`;
+          chat.appendChild(chatWrap);
         });
     }, 2000);
   }

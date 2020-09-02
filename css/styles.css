@@ -268,8 +268,8 @@ header {
   display: flex;
 }
 .bot-wrap small {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 36px;
   border-radius: 50px;
   background: var(--purple-md);
   align-self: center;
@@ -325,7 +325,7 @@ header {
   padding-bottom: 1em;
 }
 .Chatbot__convo1__foot img {
-  width: 20px;
+  width: 18px;
   margin-right: 0.5em;
 }
 .Chatbot__popup__footer {
@@ -383,6 +383,13 @@ header {
   }
   .Chatbot__convo {
     padding: 2em;
+  }
+  .bot-wrap small {
+    width: 40px;
+    height: 40px;
+  }
+  .Chatbot__convo1__foot img {
+    width: 20px;
   }
 }
 @media (min-width: 57em) {

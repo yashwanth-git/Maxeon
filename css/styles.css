@@ -372,6 +372,7 @@ header {
   opacity: 1;
   outline: none;
 }
+/* Mobile Chatbot Usability */
 @media (min-width: 24em) {
   .Chatbot__popup {
     width: 360px;

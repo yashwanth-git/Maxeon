@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Sparrow</title>
+    <link rel="shortcut icon" type="image/png" href="images/sparrow favicon.png" />
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--Custom Css -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Customer JS -->
+    <script defer src="../js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="Logo">Maxeon</h1>
+            <div class="Toggler">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <nav class="Nav">
+                <ul class="Nav__items">
+                    <li class="Nav__item">
+                        <a href="#" class="Nav__links">Products</a>
+                    </li>
+                    <li class="Nav__item">
+                        <a href="#" class="Nav__links">Features</a>
+                    </li>
+                    <li class="Nav__item">
+                        <a href="#" class="Nav__links">Use Cases</a>
+                    </li>
+                    <li class="Nav__item">
+                        <a href="#" class="Nav__links">Pricing</a>
+                    </li>
+                    <li class="Nav__item">
+                        <a href="#" class="Nav__links Nav__btn">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="Hero">
+        <h1>Where words fail, Music speaks.</h1>
+    </section>
+    <div class="Chatbot">
+        <input type="checkbox" id="Chatbot__check" class="Chatbot-check" />
+        <label class="Chatbot__label" for="Chatbot__check">
+            <img src="/images/Sparrow Bird.png" alt="Survey Sparrow Chat" class="survey-chat" width="20">
+            <img src="/images/close-icon.svg" alt="Close" class="close-btn" width="20">
+        </label>
+        <div class="Chatbot__popup">
+            <div class="Chatbot__popup__wrap">
+                <div class="Chat__popup__head">
+                    <p>Hi There</p>
+                    <p class="Chat__popup__desc">Hello Ask Us Anything. Share Your Feedback.</p>
+                </div>
+                <div class="Chatbot__convo">
+                    <p>Start a Conversation</p>
+                    <p>The team typically replies in a few minutes.</p>
+                    <a href="#" class="Chatbot__convo__btn">New Conversation <span><img
+                                src="../images/send-icon.svg"></span></a>
+                </div>
+                <div class="Chatbot__convo1">
+                    <div class="Chatbot__convo__wrap">
+                        <!-- <div class="user chat">
+                            <div class="user-chat">Is there any offline versions available for Maxeon Player?</div>
+                        </div>
+                        <div class="bot-wrap chat">
+                            <small></small>
+                            <div class="bot">
+                                <div class="bot-chat">Currently we don't have but we will lanch soon.</div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <p class="Chatbot__convo1__foot"><img src="../images/sparrow favicon.png" alt="Survey Sparrow">we
+                        run on
+                        surveysparrow</p>
+                </div>
+            </div>
+            <div class="Chatbot__popup__footer">
+                <form>
+                    <input type="text" placeholder="Write a reply..." id="msg" class="msg" />
+                    <button id="send-chat"><img src="../images/send-icon-chat.svg" alt="Send" width="30"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

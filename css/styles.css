@@ -256,12 +256,10 @@ header {
   width: 25px;
 }
 .Chatbot__convo.change {
-  transform: translateX(-100%) scale(1, 0);
-  transition: all 0.2s ease-in;
-  transform-origin: right;
-  width: 0;
-  padding: 0;
+  transform: translateX(-100%) scale(0);
+  transition: all 250ms ease-in;
   height: 0;
+  padding: 0;
 }
 .Chatbot__convo__wrap {
   padding: 2em 0;
@@ -375,6 +373,10 @@ header {
 @media (min-width: 24em) {
   .Chatbot__popup {
     width: 360px;
+  }
+  .bot-wrap small {
+    width: 39px;
+    height: 36px;
   }
 }
 @media (min-width: 30em) {

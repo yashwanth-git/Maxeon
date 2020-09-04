@@ -28,7 +28,8 @@ body {
   background: url("../images/Banner.png") no-repeat;
   background-size: cover;
   background-position: bottom left;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   width: 100vw;
 }
 /* Header Css*/
@@ -387,7 +388,7 @@ header {
     bottom: 70px;
     right: 10%;
     width: 430px;
-    max-height: 400px;
+    max-height: 260px;
   }
   .Chatbot__convo__btn {
     padding: 1em 2em;

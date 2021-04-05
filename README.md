@@ -1,3 +1,3 @@
-# Survey Sparrow Landing Page
+# Maxeon Landing Page
 
-This is a landing page created for survey sparrow with chatbot.
+This is a landing page with advice slip api.
